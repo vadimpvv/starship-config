@@ -1,5 +1,6 @@
 format = """\
 [╭╴](fg:arrow)\
+$kubernetes\
 $directory\
 $git_branch\
 $git_status\
@@ -154,3 +155,6 @@ format = '[ ${symbol}${pyenv_prefix}(${version})( \($virtualenv\)) ]($style) '
 symbol = " "
 version_format = "${raw}"
 style = "bg:python fg:text_light"
+
+[kubernetes]
+disabled = false
